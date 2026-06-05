@@ -1,0 +1,23 @@
+{
+  "name": "createreactapp",
+  "version": "1.0.0",
+  "description": "Sample react app builder",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fitkannadiga/react-app-tester.git"
+  },
+  "keywords": [
+    "fitkannadiga",
+    "react"
+  ],
+  "author": "Raghavendra V",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fitkannadiga/react-app-tester/issues"
+  },
+  "homepage": "https://github.com/fitkannadiga/react-app-tester#readme"
+}
