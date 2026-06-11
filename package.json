@@ -2,8 +2,9 @@
   "name": "createreactapp",
   "version": "1.0.0",
   "description": "Sample react app builder",
-  "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -19,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/fitkannadiga/react-app-tester/issues"
   },
-  "homepage": "https://github.com/fitkannadiga/react-app-tester#readme"
+  "homepage": "https://github.com/fitkannadiga/react-app-tester#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.17.0"
+  }
 }
